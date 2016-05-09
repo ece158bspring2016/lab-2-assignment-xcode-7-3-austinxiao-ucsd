@@ -17,6 +17,8 @@
 		85584B751CC9E58D00B38EDB /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85584B741CC9E58D00B38EDB /* PlayersViewController.swift */; };
 		85584B771CC9E5D800B38EDB /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85584B761CC9E5D800B38EDB /* Player.swift */; };
 		85584B791CC9E60D00B38EDB /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85584B781CC9E60D00B38EDB /* SampleData.swift */; };
+		85C209731CDFFDD100B5D456 /* PlayerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C209721CDFFDD100B5D456 /* PlayerDetailsViewController.swift */; };
+		85C209751CE00F7100B5D456 /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C209741CE00F7100B5D456 /* GamePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		85584B741CC9E58D00B38EDB /* PlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
 		85584B761CC9E5D800B38EDB /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		85584B781CC9E60D00B38EDB /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		85C209721CDFFDD100B5D456 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerDetailsViewController.swift; path = Lab1/PlayerDetailsViewController.swift; sourceTree = SOURCE_ROOT; };
+		85C209741CE00F7100B5D456 /* GamePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GamePickerViewController.swift; path = Lab1/GamePickerViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				85584B741CC9E58D00B38EDB /* PlayersViewController.swift */,
 				85584B761CC9E5D800B38EDB /* Player.swift */,
 				85584B781CC9E60D00B38EDB /* SampleData.swift */,
+				85C209721CDFFDD100B5D456 /* PlayerDetailsViewController.swift */,
+				85C209741CE00F7100B5D456 /* GamePickerViewController.swift */,
 			);
 			path = LAB1;
 			sourceTree = "<group>";
@@ -216,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 85584B3E1CC9E1FD00B38EDB /* Build configuration list for PBXProject "LAB1" */;
+			buildConfigurationList = 85584B3E1CC9E1FD00B38EDB /* Build configuration list for PBXProject "Lab1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -270,6 +276,8 @@
 			files = (
 				85584B771CC9E5D800B38EDB /* Player.swift in Sources */,
 				85584B491CC9E1FD00B38EDB /* ViewController.swift in Sources */,
+				85C209751CE00F7100B5D456 /* GamePickerViewController.swift in Sources */,
+				85C209731CDFFDD100B5D456 /* PlayerDetailsViewController.swift in Sources */,
 				85584B471CC9E1FD00B38EDB /* AppDelegate.swift in Sources */,
 				85584B791CC9E60D00B38EDB /* SampleData.swift in Sources */,
 				85584B751CC9E58D00B38EDB /* PlayersViewController.swift in Sources */,
@@ -481,7 +489,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		85584B3E1CC9E1FD00B38EDB /* Build configuration list for PBXProject "LAB1" */ = {
+		85584B3E1CC9E1FD00B38EDB /* Build configuration list for PBXProject "Lab1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				85584B691CC9E1FD00B38EDB /* Debug */,
@@ -497,6 +505,7 @@
 				85584B6D1CC9E1FD00B38EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85584B6E1CC9E1FD00B38EDB /* Build configuration list for PBXNativeTarget "LAB1Tests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +514,7 @@
 				85584B701CC9E1FD00B38EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85584B711CC9E1FD00B38EDB /* Build configuration list for PBXNativeTarget "LAB1UITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +523,7 @@
 				85584B731CC9E1FD00B38EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,8 +2,7 @@
 //  PlayersViewController.swift
 //  LAB1
 //
-//  Created by Hongda Xiao on 4/21/16.
-//  Copyright © 2016 Hongda Xiao. All rights reserved.
+//  Created by Hongda Xiao on 4/21/16.//  Copyright © 2016 Hongda Xiao. All rights reserved.
 //
 
 import UIKit
@@ -48,6 +47,22 @@ class PlayersViewController: UITableViewController {
     func imageForRating(rating:Int) -> UIImage? {
         let imageName = "\(rating)Stars"
         return UIImage(named: imageName)
+    }
+    @IBAction func cancelToPlayersViewController(segue:UIStoryboardSegue){
+        
+    }
+    @IBAction func savePlayerDetail(segue:UIStoryboardSegue){
+        if let playerDetailsViewController = segue.sourceViewController as? PlayerDetailsViewController {
+            
+            //add the new player to the players array
+            if let player = playerDetailsViewController.player {
+                players.append(player)
+                
+                //update the tableView
+                let indexPath = NSIndexPath(forRow: players.count-1, inSection: 0)
+                tableView.insertRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+            }
+        }
     }
 
 
